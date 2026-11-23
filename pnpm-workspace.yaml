@@ -119,6 +119,45 @@ overrides:
   browserslist: ^4.28.7
   postcss-selector-parser: ^7.1.3
   vitest: ^4.1.11
+  '@hono/node-server@<1.19.18': ^1.19.18
+  '@hono/node-server@>=1.19.10 <2.1.3': ^2.1.3
+  '@modelcontextprotocol/sdk@<1.32.0': ^1.32.0
+  '@modelcontextprotocol/sdk@>=1.10.0 <1.30.1': ^1.30.1
+  '@modelcontextprotocol/sdk@>=1.12.0 <1.31.0': ^1.31.0
+  '@modelcontextprotocol/sdk@>=1.24.0 <1.32.0': ^1.32.0
+  '@modelcontextprotocol/sdk@>=1.3.0 <1.32.0': ^1.32.0
+  '@modelcontextprotocol/sdk@>=1.6.0 <1.32.0': ^1.32.0
+  '@vitest/mocker@>=2.1.0-beta.7 <4.1.12': ^4.1.12
+  '@vitest/mocker@>=4.1.11 <4.1.12': ^4.1.12
+  body-parser@>=2.0.0 <2.4.0: ^2.4.0
+  brace-expansion@>=4.0.0 <5.0.10: ^5.0.10
+  brace-expansion@>=4.0.0 <5.0.11: ^5.0.11
+  brace-expansion@>=4.0.0 <5.0.12: ^5.0.12
+  fast-uri@>=3.0.0 <3.1.8: ^3.1.8
+  fast-uri@>=3.0.0 <3.1.9: ^3.1.9
+  fast-uri@>=3.1.3 <3.1.9: ^3.1.9
+  hono@<4.13.16: ^4.13.16
+  hono@>=3.12.0 <=4.13.15: ^4.13.16
+  hono@>=4.1.4 <=4.13.15: ^4.13.16
+  hono@>=4.12.4 <4.13.11: ^4.13.11
+  hono@>=4.5.1 <=4.13.15: ^4.13.16
+  ip-address@<=10.5.0: ^10.5.1
+  ip-address@<=10.7.0: ^10.7.1
+  ip-address@<=10.7.3: ^10.7.4
+  ip-address@>=10.2.0 <=10.5.0: ^10.5.1
+  minimatch@>=7.0.0 <11.0.1: ^11.0.1
+  proxy-addr@>=1.1.0 <2.0.8: ^2.0.8
+  qs@>=6.7.0 <=6.16.0: ^6.16.1
+  seroval@<=1.6.2: ^1.6.3
+  seroval@<=1.6.7: ^1.6.8
+  seroval@>=0.12.0 <=1.6.0: ^1.6.1
+  seroval@>=1.4.1 <=1.6.7: ^1.6.8
+  source-map-js@>=1.0.0 <1.2.2: ^1.2.2
+  undici@>=7.0.0 <7.30.1: ^7.30.1
+  undici@>=7.15.0 <7.30.1: ^7.30.1
+  undici@>=7.18.0 <7.30.1: ^7.30.1
+  vite@>=8.0.0 <=8.1.5: ^8.1.6
+  zod@<4.6.6: ^4.6.6
 
 # auditConfig: advisories we have reviewed and decided not to fix. The weekly
 # security-audit workflow honors this list, so an entry here also stops the job
@@ -157,3 +196,30 @@ minimumReleaseAgeExclude:
   - '@tiptap/extension-placeholder@3.31.3'
   - prosemirror-model@1.25.11
   - prosemirror-view@1.42.3
+  - ip-address@10.5.1
+  - fast-uri@3.1.8
+  - ip-address@10.7.1
+  - brace-expansion@5.0.12
+  - brace-expansion@5.0.11
+  - brace-expansion@5.0.10
+  - seroval@1.6.1
+  - seroval@1.6.3
+  - source-map-js@1.2.2
+  - proxy-addr@2.0.8
+  - '@modelcontextprotocol/sdk@1.31.0'
+  - hono@4.13.11
+  - vite@8.1.6
+  - '@modelcontextprotocol/sdk@1.32.0'
+  - '@vitest/mocker@4.1.12'
+  - ip-address@10.7.4
+  - zod@4.6.6
+  - body-parser@2.4.0
+  - undici@7.30.1
+  - fast-uri@3.1.9
+  - '@modelcontextprotocol/sdk@1.30.1'
+  - seroval@1.6.8
+  - '@hono/node-server@2.1.3'
+  - qs@6.16.1
+  - minimatch@11.0.1
+  - '@hono/node-server@1.19.18'
+  - hono@4.13.16
